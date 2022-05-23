@@ -1,0 +1,4 @@
+﻿  MAIN.c
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+TreePrint.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Github Proj\Homework-5\Homework 5 Binary Trees\x64\Debug\Homework 5 Binary Trees.exe : fatal error LNK1120: 1 unresolved externals
