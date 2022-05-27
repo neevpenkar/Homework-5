@@ -1,4 +1,4 @@
-﻿  BST.c
-  MAIN.c
-  Generating Code...
-  Homework 5 Binary Trees.vcxproj -> D:\Github Proj\Homework-5\Homework 5 Binary Trees\Debug\Homework 5 Binary Trees.exe
+﻿  MAIN.c
+D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\MAIN.c(9,2): warning C4013: 'ParentinsertBST' undefined; assuming extern returning int
+MAIN.obj : error LNK2019: unresolved external symbol __imp__print_ascii_tree referenced in function _main
+D:\Github Proj\Homework-5\Homework 5 Binary Trees\Debug\Homework 5 Binary Trees.exe : fatal error LNK1120: 1 unresolved externals

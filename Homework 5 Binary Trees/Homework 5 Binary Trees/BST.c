@@ -3,18 +3,32 @@
 #include "TreePrintLibrary.h"
 
 void initBST(BST* bst) {
-	bst->root = NULL;
-}
-voi/*d insertBST(BST* bst, int value) {
-	TreeNode* m = bst->root;
-	if (m == NULL) {
-		m = (TreeNode*)malloc(sizeof(TreeNode));
-		m->left = NULL; m->right = NULL;
-		m->element = value;
+	if (bst != NULL) {
+		bst->root = (TreeNode*)malloc(sizeof(TreeNode));
+		bst->root->left = NULL;
+		bst->root->right = NULL;
 	}
-	else if (m != NULL) {
-		if (value > m->element) {
-			insertBST(bst->)
-		}
-	}*/
+	return;
+}
+void ParentinsertBST(BST* bst, int value) {
+	TreeNode* newnode = (TreeNode*)malloc(sizeof(TreeNode));
+	newnode->left = NULL;
+	newnode->right = NULL;
+	newnode->element = value;
+	insertBST(bst->root, newnode);
+}
+
+void insertBST(TreeNode* node, TreeNode* newnode) {
+
+	if (node->element > newnode->element && node->right == NULL)
+		node->right = newnode;
+
+	else if (node->element > newnode->element)
+		insertBST(node->right, newnode);
+
+	else if (node->element < newnode->element && node->left == NULL)
+		node->left = newnode;
+		
+	else if (node->element < newnode->element)
+		insertBST(node->left, newnode);
 }
