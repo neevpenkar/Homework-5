@@ -1,4 +1,8 @@
-﻿  MAIN.c
-D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\MAIN.c(9,2): warning C4013: 'ParentinsertBST' undefined; assuming extern returning int
-MAIN.obj : error LNK2019: unresolved external symbol __imp__print_ascii_tree referenced in function _main
-D:\Github Proj\Homework-5\Homework 5 Binary Trees\Debug\Homework 5 Binary Trees.exe : fatal error LNK1120: 1 unresolved externals
+﻿  BST.c
+D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\BST.c(25,21): warning C4133: 'function': incompatible types - from 'TreeNode *' to 'BST *'
+D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\BST.c(25,30): warning C4047: 'function': 'int' differs in levels of indirection from 'TreeNode *'
+D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\BST.c(25,23): warning C4024: 'insertBST': different types for formal and actual parameter 2
+D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\BST.c(28,26): warning C4028: formal parameter 1 different from declaration
+D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\BST.c(28,42): warning C4028: formal parameter 2 different from declaration
+D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\BST.c(72): warning C4715: 'findIndex': not all control paths return a value
+  Homework 5 Binary Trees.vcxproj -> D:\Github Proj\Homework-5\Homework 5 Binary Trees\Debug\Homework 5 Binary Trees.exe

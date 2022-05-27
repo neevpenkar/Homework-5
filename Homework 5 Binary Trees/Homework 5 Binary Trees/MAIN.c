@@ -5,11 +5,13 @@
 int main() {
 	BST tree;
 	initBST(&tree);
+	int test[3] = { 9, 2, 8 };
 
-	ParentinsertBST(&tree, 4);
-	ParentinsertBST(&tree, 8);
-	ParentinsertBST(&tree, 2);
+	for (int i = 0; i < 3; i++) {
+		ParentinsertBST(&tree, test[i]);
+	}
 
-	print_ascii_tree(tree.root->left);
+	findIndexNFromLast(&tree, 2);
+	destroyTree(&tree);
 	return 0;
 }

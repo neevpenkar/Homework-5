@@ -16,5 +16,11 @@ typedef struct BST
 }BST;
 
 void initBST(BST* bst);
+void destroyTree(BST* bst);
+char isEmptyTree(BST* bst);
 void insertBST(BST* bst, int value);
+void printTreeInorder(BST* bst);
+int findIndexNFromLast(BST* bst, int N);
+
+
 #endif // !_BST_ADT_H
