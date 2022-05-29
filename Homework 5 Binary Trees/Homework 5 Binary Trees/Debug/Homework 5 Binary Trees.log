@@ -1,8 +1,4 @@
-﻿  BST.c
-D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\BST.c(25,21): warning C4133: 'function': incompatible types - from 'TreeNode *' to 'BST *'
-D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\BST.c(25,30): warning C4047: 'function': 'int' differs in levels of indirection from 'TreeNode *'
-D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\BST.c(25,23): warning C4024: 'insertBST': different types for formal and actual parameter 2
-D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\BST.c(28,26): warning C4028: formal parameter 1 different from declaration
-D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\BST.c(28,42): warning C4028: formal parameter 2 different from declaration
-D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\BST.c(72): warning C4715: 'findIndex': not all control paths return a value
+﻿  functions2.c
+D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\functions2.c(9,26): warning C4028: formal parameter 1 different from declaration
+D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\functions2.c(9,42): warning C4028: formal parameter 2 different from declaration
   Homework 5 Binary Trees.vcxproj -> D:\Github Proj\Homework-5\Homework 5 Binary Trees\Debug\Homework 5 Binary Trees.exe
