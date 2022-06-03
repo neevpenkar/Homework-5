@@ -22,5 +22,5 @@ void insertBST(BST* bst, int value);
 void printTreeInorder(BST* bst);
 int findIndexNFromLast(BST* bst, int N);
 void ParentinsertBST(BST* bst, int value);
-
+int sameHeightLeaves(BST* bst);
 #endif // !_BST_ADT_H
