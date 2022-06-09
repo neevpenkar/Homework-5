@@ -1,2 +1,6 @@
-﻿  main2.c
+﻿  functions2.c
+D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\functions2.c(9,26): warning C4028: formal parameter 1 different from declaration
+D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\functions2.c(9,42): warning C4028: formal parameter 2 different from declaration
+D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\functions2.c(80,10): warning C4013: 'MAX' undefined; assuming extern returning int
+D:\Github Proj\Homework-5\Homework 5 Binary Trees\Homework 5 Binary Trees\functions2.c(104): warning C4715: 'MAX': not all control paths return a value
   Homework 5 Binary Trees.vcxproj -> D:\Github Proj\Homework-5\Homework 5 Binary Trees\Debug\Homework 5 Binary Trees.exe

@@ -21,9 +21,9 @@ int main() {
 	//printTreeInorder(&tree);
 	//printf("\n");
 	print_ascii_tree(tree.root);
-	//findIndexNFromLast(&tree, 6);
+	findIndexNFromLast(&tree, 3);
 	//printf("\nThe Nth value id: %d\n", findIndexNFromLast(&tree, 6));
-	sameHeightLeaves(&tree);
+	//sameHeightLeaves(&tree);
 	destroyTree(&tree);
 	return 0;
 }

@@ -82,17 +82,19 @@ int getHeight(TreeNode* root) {
 
 int findIndex(TreeNode* root, int N, int* storage) {
 	if (root == NULL) return 0;
-
-	findIndex(root->left, N, storage);
-	findIndex(root->right, N, storage);
 	
+	//*storage += 1;
+	
+	findIndex(root->left, N, storage);
+	printf("%d, ", root->element);
+	findIndex(root->right, N, storage);
 
 	return findIndex(root->right, N, storage) + 1;
 }
 int findIndexNFromLast(BST* bst, int N) {
-	int store;
-	return findIndex(bst->root, N, &store);
-	//return store;
+	int store = 0;
+	findIndex(bst->root, N, &store);
+	return store;
 }
 
 int MAX(int i, int j) {
